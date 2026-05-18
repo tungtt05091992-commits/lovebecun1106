@@ -25,7 +25,7 @@ export default function LongDistanceLoveCounterApp() {
       <div className="w-full max-w-3xl bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/50">
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-bold text-rose-600">
-            bé Cún ❤️ anh Bo
+            Em Cún ❤️ Anh Bo
           </h1>
           <p className="text-gray-600 text-lg">
             Every day apart is one day closer to meeting again.
@@ -35,7 +35,7 @@ export default function LongDistanceLoveCounterApp() {
         <div className="grid md:grid-cols-2 gap-6 mt-10">
           <div className="bg-rose-50 rounded-3xl p-6 shadow-md">
             <h2 className="text-xl font-semibold text-rose-500 mb-3">
-              Những ngày bên nhau 
+              Days Together
             </h2>
             <p className="text-6xl font-bold text-gray-800">
               {daysTogether}
@@ -64,6 +64,26 @@ export default function LongDistanceLoveCounterApp() {
 
         <div className="mt-8 bg-white rounded-3xl p-6 shadow-md border border-pink-100">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Khoảng cách này không xa lắm đâu 🌍
+          </h2>
+
+          <div className="rounded-2xl overflow-hidden shadow-md border border-gray-200 mb-4">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/World_map_-_low_resolution.svg/1280px-World_map_-_low_resolution.svg.png"
+              alt="Distance Map"
+              className="w-full h-[300px] object-cover"
+            />
+          </div>
+
+          <div className="text-gray-600 text-lg space-y-2 mb-4">
+            <p>📍 Your location: London 🇬🇧</p>
+            <p>📍 Partner location: Vietnam 🇻🇳</p>
+            <p>✈️ Distance: ~9,800 km apart but always connected ❤️</p>
+          </div>
+        </div>
+
+        <div className="mt-8 bg-white rounded-3xl p-6 shadow-md border border-pink-100">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Relationship Info
           </h2>
 
@@ -78,7 +98,7 @@ export default function LongDistanceLoveCounterApp() {
             <div className="flex justify-between">
               <span>Status:</span>
               <span className="font-medium text-rose-500">
-                Cảm ơn em đã kiên nhẫn chờ đợi anh 💌
+                Long Distance but Strong 💌
               </span>
             </div>
 
@@ -97,3 +117,4 @@ export default function LongDistanceLoveCounterApp() {
       </div>
     </div>
   )
+}
